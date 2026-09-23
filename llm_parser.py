@@ -62,7 +62,9 @@ class StudentProfile(BaseModel):
 # ---------------------------------------------------------
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash"
+    model="gemini-3.6-flash",
+    timeout=60,
+    max_retries=1
 )
 
 

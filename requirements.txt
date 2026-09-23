@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-google-genai==2.1.8
+scikit-fuzzy
+scipy
+networkx
+python-dotenv
+pydantic
+numpy
